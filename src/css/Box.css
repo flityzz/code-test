@@ -1,0 +1,101 @@
+.box-container{
+    border: 1px solid #999999;
+    border-radius: 16px;
+    margin-top: 24px;
+    opacity: 0;
+    animation: fade-in 0.7s forwards;
+}
+
+.box-container .box-header {
+    border-radius: 14px 14px 0px 0px;
+    background: #7695EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    text-overflow: ellipsis;
+}
+
+.box-container .box-header h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+}
+
+.box-container .box-header .box-header-images{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+  cursor: pointer;
+}
+
+.box-container .box-header .active-box-images{
+  display: flex;
+}
+
+
+
+.box-container .box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  
+}
+
+.box-container .box-content .box-content-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -moz-available;          
+  width: -webkit-fill-available;  
+  width: fill-available;
+}
+
+.box-container .box-content .box-content-info strong{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+
+  color: #777777;
+}
+
+.box-container .box-content .box-content-info span{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #777777;
+}
+
+.box-container .box-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 16px;
+  color: #000000;
+  word-break: break-word;
+  text-align: justify;
+}
+
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

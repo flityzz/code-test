@@ -1,0 +1,115 @@
+.main-screen-container{
+    display: block;
+    height: auto;
+    background-color: #FFFFFF;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+    border: 1px solid #999999;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-screen-container header {
+    background: #7695EC;
+    max-height: 88px;
+    padding: 37px 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-screen-container header img{
+    height: 22px;
+    cursor: pointer;
+}
+
+.main-screen-container header h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.main-screen-container main {
+    padding: 24px;
+}
+
+.main-screen-container main .main-screen-post-box{
+    border: 1px solid #999999;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-screen-container main .main-screen-post-box h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.main-screen-container main .main-screen-post-box span{
+    margin-top: 24px;
+}
+
+.main-screen-container main .main-screen-post-box input[type="text"]{
+    margin-top: 8px;
+    width: -moz-available;          
+    width: -webkit-fill-available;  
+    width: fill-available;
+    border: 1px solid #777777;
+    border-radius: 8px;     
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #CCCCCC;
+    padding: 8px;
+}
+
+.main-screen-container main .main-screen-post-box textarea{
+    margin-top: 8px;
+    width: -webkit-fill-available;
+    border: 1px solid #777777;
+    border-radius: 8px;     
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    resize: vertical;
+    color: #CCCCCC;
+    padding: 8px;
+}
+
+.main-screen-submit-input{
+    background: #DDDDDD;
+    border-radius: 8px;
+    padding: 7px 30px;
+    font-weight: 700;
+    max-width: 111px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 22px;
+    border: none;
+    align-self: flex-end;
+}
+
+.main-screen-container main .main-screen-post-box .enabled{
+    background-color: #7695EC;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
