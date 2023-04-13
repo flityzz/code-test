@@ -2,7 +2,7 @@ Code-test
 This project is a web application built using React with Vite as the build tool. It also uses HTML, CSS, and JavaScript for the front-end.
 
 Live Demo
-A live demo of this application can be found at inspiring-cascaron-b6d50b.netlify.app
+A live demo of this application can be found at <a href="https://inspiring-cascaron-b6d50b.netlify.app/">https://inspiring-cascaron-b6d50b.netlify.app/</a>
 
 Getting Started
 To get started with this project, you can clone this repository using the following command:
